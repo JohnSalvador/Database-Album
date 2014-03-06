@@ -23,7 +23,7 @@ if($ip_address=='::1'){
 	$dbServer = "sql2.njit.edu";
 }
 $dbuserName = "jbs44";
-$dbpassword = "6kVBymUH";
+$dbpassword = "";
 $dbName = "jbs44";
 
 // ********** Connect. Change fields above.

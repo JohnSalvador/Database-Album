@@ -1,0 +1,196 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*General*/
+
+h1{
+	width: 700px;
+	text-align: center;
+	border: #36F double;
+	padding: 5px;
+	margin: 0px;
+}
+body{
+	font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+}
+a:link {
+	color: blue;
+	text-decoration: none;
+}
+
+a:visited{
+	color:blue;
+	text-decoration:none;	
+}
+
+a:hover{
+	background-color:blue;
+	color:white;
+	text-decoration:underline;
+}
+
+a:active{
+	background-color: orange;
+	text-decoration:blink;
+}
+
+.table_title{
+	text-align: center;
+	font-size: 24px;
+	font-style: oblique;
+	font-weight: bold;
+	background-color: #9CF;
+}
+
+th{
+	font-size: 18px;
+	font-weight: bold;	
+}
+th > h3{
+	margin: 5px;
+	padding: 10px;
+}
+
+td{
+	text-align:center;
+}
+/*headers*/
+#logout{
+	position: absolute;
+	/*float: right; */
+	top: 90px;
+	left: 900px;
+	
+}
+#cd_pic{
+	position: absolute;
+	
+}
+#nav{
+	position: absolute;
+	left: 300px;
+	top: 85px;
+}
+#headerlist{
+	list-style-type:circle;	
+}
+/*body*/
+.title{
+	position: absolute;
+	top: 20px;
+	left: 300px;
+}
+.query{
+	width: 1180px;
+	height: 70px;
+	position: absolute;
+	top: 260px;
+	padding: 5px;
+	margin: 5px;
+	border: solid #36F 2px;
+	overflow: auto;
+	
+}
+.entryblock{
+	position: absolute;
+	top: 360px;
+	left: 30px;
+}
+
+/*index*/
+#indexlogin{
+	position:absolute;
+	left:300px;
+	top:90px;
+}
+#indexcontent{
+	position: absolute;
+	left: 300px;
+	top: 260px;
+}
+#names{
+	list-style:square;
+}
+/*album*/
+#table_album{
+	position: relative;
+	top: 1100px;
+}
+#query_album{
+	position: inherit;
+	width: 1180px;
+	height: 70px;
+	padding: 5px;
+	margin: 5px;
+	border: solid #36F 2px;
+	overflow: auto;
+}
+
+
+/*artist*/
+#table_artist{
+	position: relative;
+	top: 700px;
+}
+#query_artist{
+	position: inherit;
+	width: 1180px;
+	height: 70px;
+	padding: 5px;
+	margin: 5px;
+	border: solid #36F 2px;
+	overflow: auto;
+}
+
+/*songs*/
+#table_songs{
+	position: relative;
+	top: 1350px;
+}
+#query_songs{
+	position: inherit;
+	width: 1180px;
+	height: 70px;
+	padding: 5px;
+	margin: 5px;
+	border: solid #36F 2px;
+	overflow: auto;
+}
+
+/*playlist*/
+#table_playlist{
+	position: relative;
+	top: 600px;
+}
+#query_playlist{
+	position: inherit;
+	width: 1180px;
+	height: 70px;
+	padding: 5px;
+	margin: 5px;
+	border: solid #36F 2px;
+	overflow: auto;
+}
+
+/*vendor*/
+#table_vendor{
+	position: relative;
+	top: 600px;
+}
+#query_vendor{
+	position: inherit;
+	width: 1180px;
+	height: 70px;
+	padding: 5px;
+	margin: 5px;
+	border: solid #36F 2px;
+	overflow: auto;
+}
+
+/*console*/
+#table_console{
+	position: relative;
+	top: 650px;
+	width: 1200px;
+	min-height: 400px;
+}

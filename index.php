@@ -24,13 +24,6 @@ require_once 'connect.php';
         	<li>John</li>
         <ul>
     </div>
-   
-        <form action="index.php" id="login_form" method="POST">
-            <input type="text" name="username" value="" placeholder="Username"/><br />
-            <input type="password" name="password" value="" placeholder="Password"/> <br />
-            <input type="submit" value="Sign In" style="background:blue; color: white;" />
-        </form>
-    </div>
     
 </body>
 </html>

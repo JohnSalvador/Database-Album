@@ -12,7 +12,7 @@ require_once 'connect.php';
     	<h1>Welcome to the CD Manager</h1>
     </div>
     <?php
-	$_COOKIE['username']='Gehani';
+    setcookie('username','Gehani');
 	include 'header.php';
 	?>
     <div id="indexcontent">
